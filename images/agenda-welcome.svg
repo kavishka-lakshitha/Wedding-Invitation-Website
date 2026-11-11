@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Morning tea illustration">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152C"/>
+      <stop offset=".55" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#17488D"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="40%" r="58%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9DC2F0"/>
+    </linearGradient>
+    <linearGradient id="cup1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7FAFE"/>
+      <stop offset="1" stop-color="#C7DBF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg1)"/>
+  <rect width="800" height="1000" fill="url(#glow1)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#EAF1FA" stroke-opacity=".16"/>
+  <text x="690" y="170" font-family="Georgia,serif" font-size="170" fill="#EAF1FA" fill-opacity=".05" text-anchor="middle">01</text>
+  <path d="M250 700V470a150 150 0 0 1 300 0v230" fill="none" stroke="url(#line1)" stroke-width="2" stroke-opacity=".3"/>
+  <circle cx="400" cy="430" r="112" fill="#38BDF8" fill-opacity=".06" stroke="#9DC2F0" stroke-opacity=".28" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#line1)" stroke-width="3" stroke-linecap="round" stroke-opacity=".75">
+    <path d="M350 372c-18-28 16-44 0-72s16-44 0-68"/>
+    <path d="M400 362c-18-30 18-48 0-78s18-48 0-74"/>
+    <path d="M450 374c-16-26 14-42 0-68s14-40 0-62"/>
+  </g>
+  <ellipse cx="400" cy="724" rx="196" ry="44" fill="#EAF1FA" fill-opacity=".07" stroke="url(#line1)" stroke-width="2.5"/>
+  <ellipse cx="400" cy="718" rx="124" ry="25" fill="none" stroke="#9DC2F0" stroke-opacity=".35" stroke-width="1.5"/>
+  <path d="M298 520h204l-18 132a50 50 0 0 1-50 42h-68a50 50 0 0 1-50-42Z" fill="url(#cup1)"/>
+  <path d="M298 520h204" stroke="#FFFFFF" stroke-width="3" stroke-opacity=".9"/>
+  <ellipse cx="400" cy="520" rx="102" ry="18" fill="#17488D" fill-opacity=".6" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M502 562c58 0 66 94 0 102" fill="none" stroke="url(#line1)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M400 598l7 17 18 2-13 12 4 18-16-9-16 9 4-18-13-12 18-2Z" fill="#2563EB" fill-opacity=".9"/>
+  <g fill="none" stroke="#9DC2F0" stroke-width="2" stroke-linecap="round" stroke-opacity=".7">
+    <path d="M596 762c-42-10-62-42-66-82"/>
+    <path d="M562 714c-18 2-30 12-34 26 16 6 30 0 34-26Z"/>
+    <path d="M546 682c-16 0-28 8-34 20 14 8 28 4 34-20Z"/>
+    <path d="M596 762c20-18 24-42 16-64"/>
+    <path d="M602 730c14-4 22-14 24-28-14-2-24 6-24 28Z"/>
+  </g>
+  <g fill="#EAF1FA" fill-opacity=".45">
+    <circle cx="178" cy="222" r="3"/>
+    <circle cx="626" cy="248" r="2.5"/>
+    <circle cx="664" cy="604" r="3"/>
+    <circle cx="158" cy="620" r="2"/>
+    <circle cx="222" cy="828" r="2.5"/>
+    <circle cx="644" cy="846" r="2"/>
+  </g>
+</svg>

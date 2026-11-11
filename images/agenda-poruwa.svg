@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Poruwa ceremony illustration">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152C"/>
+      <stop offset=".55" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#17488D"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="50%" cy="38%" r="58%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9DC2F0"/>
+    </linearGradient>
+    <linearGradient id="stage2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF1FA" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#EAF1FA" stop-opacity=".04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg2)"/>
+  <rect width="800" height="1000" fill="url(#glow2)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#EAF1FA" stroke-opacity=".16"/>
+  <text x="690" y="170" font-family="Georgia,serif" font-size="170" fill="#EAF1FA" fill-opacity=".05" text-anchor="middle">02</text>
+  <path d="M220 430V300a180 180 0 0 1 360 0v130" fill="none" stroke="url(#line2)" stroke-width="2.5" stroke-opacity=".45"/>
+  <path d="M240 410V305a160 160 0 0 1 320 0v105" fill="none" stroke="#9DC2F0" stroke-width="1.2" stroke-opacity=".3"/>
+  <path d="M400 250v58" stroke="#9DC2F0" stroke-width="2" stroke-opacity=".7"/>
+  <path d="M372 308h56l-9 32h-38Z" fill="#38BDF8" fill-opacity=".2" stroke="url(#line2)" stroke-width="2"/>
+  <circle cx="400" cy="352" r="7" fill="#38BDF8"/>
+  <circle cx="364" cy="500" r="46" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-opacity=".9"/>
+  <circle cx="436" cy="500" r="46" fill="none" stroke="#9DC2F0" stroke-width="5" stroke-opacity=".75"/>
+  <rect x="262" y="604" width="18" height="100" rx="4" fill="#EAF1FA" fill-opacity=".1" stroke="#9DC2F0" stroke-opacity=".5"/>
+  <rect x="520" y="604" width="18" height="100" rx="4" fill="#EAF1FA" fill-opacity=".1" stroke="#9DC2F0" stroke-opacity=".5"/>
+  <path d="M220 700h360l-28 42H248Z" fill="url(#stage2)" stroke="url(#line2)" stroke-width="2.5"/>
+  <path d="M248 742h304v66H248Z" fill="#EAF1FA" fill-opacity=".05" stroke="#9DC2F0" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M268 808h264v24H268Z" fill="#EAF1FA" fill-opacity=".08" stroke="#9DC2F0" stroke-opacity=".4" stroke-width="1.5"/>
+  <path d="M320 832h160v18H320Z" fill="#EAF1FA" fill-opacity=".05" stroke="#9DC2F0" stroke-opacity=".35" stroke-width="1.2"/>
+  <path d="M300 850h200v16H300Z" fill="#EAF1FA" fill-opacity=".04" stroke="#9DC2F0" stroke-opacity=".3" stroke-width="1.2"/>
+  <g fill="none" stroke="#9DC2F0" stroke-width="1.6" stroke-opacity=".65">
+    <path d="M400 920c-40-30-40-70 0-100 40 30 40 70 0 100Z"/>
+    <path d="M400 920c-64-10-86-46-80-84 38 2 70 26 80 84Z"/>
+    <path d="M400 920c64-10 86-46 80-84-38 2-70 26-80 84Z"/>
+    <path d="M400 920c-24-40-14-78 0-98 14 20 24 58 0 98Z" stroke-opacity=".4"/>
+  </g>
+  <g fill="#EAF1FA" fill-opacity=".45">
+    <circle cx="176" cy="216" r="3"/>
+    <circle cx="628" cy="240" r="2.5"/>
+    <circle cx="664" cy="612" r="3"/>
+    <circle cx="154" cy="616" r="2"/>
+    <circle cx="214" cy="832" r="2.5"/>
+    <circle cx="648" cy="848" r="2"/>
+  </g>
+</svg>

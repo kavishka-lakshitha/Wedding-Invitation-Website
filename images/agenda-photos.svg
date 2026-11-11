@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Photographs and blessings illustration">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152C"/>
+      <stop offset=".55" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#17488D"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="50%" cy="40%" r="58%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9DC2F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg3)"/>
+  <rect width="800" height="1000" fill="url(#glow3)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#EAF1FA" stroke-opacity=".16"/>
+  <text x="690" y="170" font-family="Georgia,serif" font-size="170" fill="#EAF1FA" fill-opacity=".05" text-anchor="middle">03</text>
+  <rect x="248" y="286" width="304" height="232" rx="10" fill="#EAF1FA" fill-opacity=".04" stroke="url(#line3)" stroke-width="2" stroke-opacity=".5"/>
+  <rect x="264" y="302" width="272" height="200" rx="6" fill="none" stroke="#9DC2F0" stroke-opacity=".25" stroke-width="1.2"/>
+  <path d="M400 452c-34-22-54-40-54-62 0-16 12-28 28-28 12 0 20 6 26 16 6-10 14-16 26-16 16 0 28 12 28 28 0 22-20 40-54 62Z" fill="#38BDF8" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="246" y="540" width="308" height="186" rx="28" fill="#EAF1FA" fill-opacity=".1" stroke="url(#line3)" stroke-width="2.5"/>
+  <rect x="330" y="512" width="140" height="44" rx="10" fill="#EAF1FA" fill-opacity=".1" stroke="url(#line3)" stroke-width="2"/>
+  <rect x="480" y="556" width="38" height="24" rx="5" fill="#38BDF8" fill-opacity=".25" stroke="#9DC2F0" stroke-opacity=".6" stroke-width="1.5"/>
+  <circle cx="400" cy="632" r="80" fill="#07152C" stroke="url(#line3)" stroke-width="4"/>
+  <circle cx="400" cy="632" r="58" fill="none" stroke="#38BDF8" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="400" cy="632" r="32" fill="#38BDF8" fill-opacity=".16" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="1.5"/>
+  <circle cx="382" cy="614" r="9" fill="#FFFFFF" fill-opacity=".55"/>
+  <g fill="#EAF1FA" fill-opacity=".6">
+    <path d="M560 360l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/>
+    <path d="M240 470l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
+    <circle cx="620" cy="520" r="3"/>
+    <circle cx="190" cy="380" r="2.5"/>
+  </g>
+  <path d="M300 770h200" stroke="#9DC2F0" stroke-opacity=".35" stroke-width="1.5"/>
+  <circle cx="400" cy="770" r="4" fill="#38BDF8"/>
+  <g fill="#EAF1FA" fill-opacity=".45">
+    <circle cx="170" cy="230" r="2.5"/>
+    <circle cx="636" cy="248" r="3"/>
+    <circle cx="660" cy="640" r="2"/>
+    <circle cx="150" cy="660" r="2.5"/>
+    <circle cx="220" cy="842" r="2"/>
+    <circle cx="640" cy="836" r="2.5"/>
+  </g>
+</svg>

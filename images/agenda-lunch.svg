@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Wedding lunch illustration">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152C"/>
+      <stop offset=".55" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#17488D"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="50%" cy="40%" r="58%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9DC2F0"/>
+    </linearGradient>
+    <linearGradient id="dome4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF1FA" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#EAF1FA" stop-opacity=".04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg4)"/>
+  <rect width="800" height="1000" fill="url(#glow4)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#EAF1FA" stroke-opacity=".16"/>
+  <text x="690" y="170" font-family="Georgia,serif" font-size="170" fill="#EAF1FA" fill-opacity=".05" text-anchor="middle">04</text>
+  <ellipse cx="400" cy="712" rx="216" ry="46" fill="#EAF1FA" fill-opacity=".08" stroke="url(#line4)" stroke-width="2.5"/>
+  <ellipse cx="400" cy="706" rx="150" ry="28" fill="none" stroke="#9DC2F0" stroke-opacity=".3" stroke-width="1.4"/>
+  <path d="M252 700a148 148 0 0 1 296 0" fill="url(#dome4)" stroke="url(#line4)" stroke-width="3"/>
+  <path d="M252 700h296" stroke="url(#line4)" stroke-width="3"/>
+  <circle cx="400" cy="548" r="13" fill="#EAF1FA" fill-opacity=".18" stroke="url(#line4)" stroke-width="2"/>
+  <path d="M400 535v-22" stroke="#9DC2F0" stroke-width="2" stroke-opacity=".7"/>
+  <path d="M300 660c20-70 80-110 150-112" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke="url(#line4)" stroke-width="2.5" stroke-linecap="round" stroke-opacity=".8">
+    <path d="M210 600v150"/>
+    <path d="M196 600v40a14 14 0 0 0 28 0v-40"/>
+    <path d="M210 640v110"/>
+    <path d="M590 600v150"/>
+    <path d="M576 600c0 26 6 44 14 44s14-18 14-44"/>
+    <path d="M590 644v106"/>
+  </g>
+  <g fill="none" stroke="#9DC2F0" stroke-width="2" stroke-opacity=".75">
+    <path d="M638 600h56l-8 40a20 20 0 0 1-40 0Z"/>
+    <path d="M666 640v70"/>
+    <path d="M646 710h40"/>
+    <path d="M646 612h40" stroke-opacity=".4"/>
+  </g>
+  <g fill="none" stroke="#9DC2F0" stroke-width="1.6" stroke-opacity=".7">
+    <path d="M120 760c30-30 34-66 26-100"/>
+    <path d="M146 700c-16 0-28 10-32 24 14 6 28 0 32-24Z"/>
+    <path d="M138 670c-14-4-26 2-32 14 12 8 26 6 32-14Z"/>
+    <circle cx="146" cy="650" r="3"/>
+  </g>
+  <g fill="#EAF1FA" fill-opacity=".45">
+    <circle cx="176" cy="220" r="3"/>
+    <circle cx="630" cy="246" r="2.5"/>
+    <circle cx="664" cy="610" r="2"/>
+    <circle cx="154" cy="624" r="2.5"/>
+    <circle cx="218" cy="836" r="2"/>
+    <circle cx="646" cy="846" r="2.5"/>
+  </g>
+</svg>
