@@ -1096,8 +1096,6 @@ body.opened .audio-dock{opacity:1;visibility:visible;transform:none;}
   .intro-quote{margin-top:16px;}
   .btn-open{margin-top:24px;padding:15px 34px;}
   .intro-hint{margin-top:12px;}
-  .door-inner{inset:12px;}
-  .door-inner::before{inset:8px;}
   .timeline::before{left:8px;}
   .t-item{grid-template-columns:1fr;gap:0;padding:10px 0 10px 32px;}
   .t-item::before{left:4px;top:22px;}
@@ -1595,7 +1593,7 @@ body.opened .hero-copy::before{transform:scaleY(1);}
   transition:background .9s ease;
 }
 .intro-panel,.intro-seam,.door-inner{display:none!important;}
-.intro-art{position:absolute;z-index:1;width:clamp(120px,17vw,220px);color:rgba(220,235,255,.34);pointer-events:none;}
+.intro-art{position:absolute;z-index:1;width:clamp(120px,17vw,220px);color:rgba(201,168,106,.62);filter:drop-shadow(0 0 16px rgba(201,168,106,.28));pointer-events:none;}
 .intro-art svg{width:100%;height:auto;display:block;}
 .intro-art--tl{top:-18px;left:-18px;transform:rotate(-7deg);animation:introSwayA 10s ease-in-out infinite both;}
 .intro-art--br{right:-18px;bottom:-18px;transform:rotate(173deg);animation:introSwayB 12s ease-in-out 1s infinite both;}
@@ -1610,7 +1608,7 @@ body.opened .hero-copy::before{transform:scaleY(1);}
 .intro-kicker{color:rgba(220,235,255,.8);}
 .intro-names{text-shadow:0 4px 34px rgba(0,0,0,.35);}
 @media(max-width:640px){
-  .intro-art{width:108px;opacity:.7;}
+  .intro-art{width:118px;opacity:.95;}
 }
 
 /* ---------- cinematic image motion ---------- */
@@ -1621,8 +1619,7 @@ body.opened .hero-visual{animation:heroVisualIn 1.4s var(--ease) both;}
 @media(min-width:981px){.blessing{background-attachment:fixed;}}
 
 /* ============================================================
-   MOBILE REFINEMENTS — image first, opening highlight,
-   door-opening button animation
+   MOBILE REFINEMENTS — image first, opening highlight
    ============================================================ */
 @media(max-width:980px){
   /* image first, text after */
@@ -1643,28 +1640,6 @@ body.opened .hero-visual{animation:heroVisualIn 1.4s var(--ease) both;}
   body.opened .hero-arch::after{animation:archHighlight 2.6s ease .35s both;}
   body.opened .hero-names{animation:nameShift 11s ease infinite,nameHighlight 2.6s ease .4s both;}
 
-  /* door opening (mobile) */
-  .intro-panel{display:block!important;z-index:1;}
-  .intro-panel .door-inner{display:block!important;}
-  .intro-panel::before{
-    content:'';position:absolute;top:0;bottom:0;width:1px;
-    background:linear-gradient(180deg,transparent,rgba(255,255,255,.32),transparent);
-  }
-  .intro-panel-left::before{right:0;}
-  .intro-panel-right::before{left:0;}
-  .intro-panel::after{
-    content:'';position:absolute;top:50%;width:11px;height:11px;border-radius:50%;
-    background:radial-gradient(circle at 35% 30%,#fff,#C9A86A 60%,#8A6A2F);
-    box-shadow:0 0 0 4px rgba(201,168,106,.16),0 2px 8px rgba(0,0,0,.45);
-    transform:translateY(-50%);
-  }
-  .intro-panel-left::after{right:20px;}
-  .intro-panel-right::after{left:20px;}
-  .intro-seam{display:block!important;}
-  .intro.opened .intro-center{
-    transition:opacity .45s ease,transform .6s var(--ease);
-    transform:translateY(-10px) scale(.98);
-  }
 }
 @keyframes heroSweep{to{transform:translateX(130%);}}
 @keyframes archHighlight{
@@ -1713,6 +1688,22 @@ img,video,iframe{max-width:100%;}
   .gift-card{padding:26px 18px;}
   .toast{width:max-content;max-width:calc(100vw - 32px);}
   .cd{flex:0 0 auto;}
+
+  .t-card{padding-top:0;}
+  .t-card::before{
+    content:'';display:block;position:static;width:auto;
+    height:clamp(150px,44vw,190px);
+    margin:0 -20px 16px;border-radius:0;
+    background-image:var(--preview);
+    background-size:cover;background-position:center;
+    transform:none;box-shadow:none;
+  }
+  .t-card::after{display:none;}
+  .t-card:hover,.t-card:focus-visible{transform:none;box-shadow:0 14px 34px rgba(10,31,68,.06);border-color:rgba(23,72,141,.16);}
+  .t-card:hover h3,.t-card:focus-visible h3{color:inherit;}
+  .t-card:hover p,.t-card:focus-visible p{color:var(--ink-soft);}
+  .t-card:hover .t-tag,.t-card:focus-visible .t-tag{color:var(--gold-deep);}
+  .t-card:hover .t-view,.t-card:focus-visible .t-view{color:var(--muted);transform:none;}
 }
 
 @media(max-width:560px){
@@ -1769,6 +1760,7 @@ img,video,iframe{max-width:100%;}
   .g-item .g-zoom{opacity:1;transform:none;}
   .hero-arch:hover img{transform:scale(1.02);}
 }
+
 </style>
 </head>
 <body class="is-locked">
@@ -1812,10 +1804,6 @@ img,video,iframe{max-width:100%;}
   <span class="petal" style="left:92%;--size:6px;--dur:10s;--delay:4.1s;--drift:-18px" aria-hidden="true"></span>
 
   <div class="intro-burst" aria-hidden="true"></div>
-
-  <div class="intro-panel intro-panel-left" aria-hidden="true"><span class="door-inner"></span></div>
-  <div class="intro-panel intro-panel-right" aria-hidden="true"><span class="door-inner"></span></div>
-  <div class="intro-seam" aria-hidden="true"></div>
 
   <div class="intro-center">
     <p class="intro-kicker">Together with our families</p>
